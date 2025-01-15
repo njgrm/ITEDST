@@ -82,8 +82,7 @@ void bubbleSort(int arr[]) {
                 isSorted = false;   
             }
         }
-        pass++; 
-        printf("Pass %d: ", pass);
+        printf("Pass %d: ", ++pass);
         for (int k = 0; k < 10; k++) {
             printf("%d ", arr[k]);
         }
